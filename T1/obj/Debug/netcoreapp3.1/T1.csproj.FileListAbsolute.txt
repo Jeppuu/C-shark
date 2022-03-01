@@ -1,0 +1,13 @@
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/bin/Debug/netcoreapp3.1/T1.deps.json
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/bin/Debug/netcoreapp3.1/T1.runtimeconfig.json
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/bin/Debug/netcoreapp3.1/T1.runtimeconfig.dev.json
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/bin/Debug/netcoreapp3.1/T1.dll
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/bin/Debug/netcoreapp3.1/T1.pdb
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.csproj.AssemblyReference.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.AssemblyInfoInputs.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.AssemblyInfo.cs
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.csproj.CoreCompileInputs.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.dll
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.pdb
+/Users/Jenna/Documents/Koodia/github/C-shark/T1/obj/Debug/netcoreapp3.1/T1.genruntimeconfig.cache
