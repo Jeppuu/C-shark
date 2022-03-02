@@ -1,0 +1,13 @@
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/bin/Debug/netcoreapp3.1/Dia-24-harjoitukset.deps.json
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/bin/Debug/netcoreapp3.1/Dia-24-harjoitukset.runtimeconfig.json
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/bin/Debug/netcoreapp3.1/Dia-24-harjoitukset.runtimeconfig.dev.json
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/bin/Debug/netcoreapp3.1/Dia-24-harjoitukset.dll
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/bin/Debug/netcoreapp3.1/Dia-24-harjoitukset.pdb
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.csproj.AssemblyReference.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.AssemblyInfoInputs.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.AssemblyInfo.cs
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.csproj.CoreCompileInputs.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.dll
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.pdb
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia-24-harjoitukset/obj/Debug/netcoreapp3.1/Dia-24-harjoitukset.genruntimeconfig.cache

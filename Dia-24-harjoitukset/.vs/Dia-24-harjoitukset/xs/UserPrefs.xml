@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{ED62C4C1-326C-478F-AD60-514234E49537}|Default">
+﻿<Properties StartupConfiguration="{9B5D1AB1-90A0-4786-9CF5-A816EEC04274}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="56" Column="41" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="T1" expanded="True">
-            <Node name="T1" expanded="True">
+          <Node name="Dia-24-harjoitukset" expanded="True">
+            <Node name="Dia-24-harjoitukset" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -18,7 +18,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.T1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Dia-24-harjoitukset FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
