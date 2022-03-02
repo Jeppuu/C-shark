@@ -1,0 +1,17 @@
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\1. WForms harjoitus.exe
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\1. WForms harjoitus.deps.json
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\1. WForms harjoitus.runtimeconfig.json
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\1. WForms harjoitus.dll
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\ref\1. WForms harjoitus.dll
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\bin\Debug\net6.0-windows\1. WForms harjoitus.pdb
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\_1._WForms_harjoitus.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.AssemblyInfoInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.AssemblyInfo.cs
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.dll
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\ref\1. WForms harjoitus.dll
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.pdb
+C:\Users\Okehittaja\source\repos\C-shark\1. WForms harjoitus\1. WForms harjoitus\obj\Debug\net6.0-windows\1. WForms harjoitus.genruntimeconfig.cache

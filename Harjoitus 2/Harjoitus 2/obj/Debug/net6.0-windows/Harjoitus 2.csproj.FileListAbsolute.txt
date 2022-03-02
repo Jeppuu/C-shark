@@ -1,0 +1,17 @@
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\Harjoitus 2.exe
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\Harjoitus 2.deps.json
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\Harjoitus 2.runtimeconfig.json
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\Harjoitus 2.dll
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\ref\Harjoitus 2.dll
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\bin\Debug\net6.0-windows\Harjoitus 2.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus_2.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.AssemblyInfoInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.AssemblyInfo.cs
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.dll
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\ref\Harjoitus 2.dll
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Harjoitus 2\Harjoitus 2\obj\Debug\net6.0-windows\Harjoitus 2.genruntimeconfig.cache
