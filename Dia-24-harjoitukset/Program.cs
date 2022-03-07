@@ -147,7 +147,7 @@ namespace Dia_24_harjoitukset
                         try
                         {
                             kokonaisluku = int.Parse(Console.ReadLine());
-                            Console.WriteLine(" Anatamasi luku on " + kokonaisluku + "ja kun siihen lisätään 1, saadaan tulokseksi " + (kokonaisluku + 1));
+                            Console.WriteLine(" Anatamasi luku on " + kokonaisluku + " ja kun siihen lisätään 1, saadaan tulokseksi " + (kokonaisluku + 1));
 
                         } catch (Exception e) //jos syöte ei ole kokonaisluku, ilmoitetaan virheestä
                         {
@@ -162,7 +162,7 @@ namespace Dia_24_harjoitukset
                         try
                         {
                             doubleLuku = Double.Parse(Console.ReadLine());
-                            Console.WriteLine(" Anatamasi luku on " + doubleLuku + "ja kun siihen lisätään 1, saadaan tulokseksi " + (doubleLuku + 1));
+                            Console.WriteLine(" Anatamasi luku on " + doubleLuku + " ja kun siihen lisätään 1, saadaan tulokseksi " + (doubleLuku + 1));
 
                         } catch (Exception e)
                         {
@@ -188,8 +188,239 @@ namespace Dia_24_harjoitukset
                 goto syottoalku;
             }
 
+            //HARJOITUS 6
 
+            int pisteet, bonus;
+            bonusalku:
+            Console.WriteLine("\nSyötä pisteiden määrä (välillä 1-9):");
+            pisteet = int.Parse(Console.ReadLine()); //luetaan käyttäjän antamat pisteet
+
+            switch(pisteet)
+            {
+                case 1: //jos pisteiden määrä on 1-3 kerrotaan pisteet kymmenellä
+                case 2:
+                case 3:
+                    bonus = pisteet * 10;
+                    Console.WriteLine("Bonusten jälkeen sinulla on " + bonus + " pistettä!");
+                    break;
+                case 4: //jos pisteiden määrä on 4-6 kerrotaan pisteet sadalla
+                case 5:
+                case 6:
+                    bonus = pisteet * 100;
+                    Console.WriteLine("Bonusten jälkeen sinulla on " + bonus + " pistettä!");
+                    break;
+                case 7: //jos pisteiden määrä on 7-9 kerrotaan pisteet tuhannella
+                case 8:
+                case 9:
+                    bonus = pisteet * 1000;
+                    Console.WriteLine("Bonusten jälkeen sinulla on " + bonus + " pistettä!");
+                    break;
+                default: //jos pisteiden määrä ei ole 1-9 tulostetaan virhe ja pyydetään lukua uudestaan
+                    Console.WriteLine("Virheellinen syöte! Syötä luku 1-9 väliltä.");
+                    goto bonusalku;
+            }
+
+            //HARJOITUS 7 <-- ohjelma toimii vain luvuilla 1-19 
+
+            numeroalku:
+            Console.WriteLine("\nSyötä numero 1-999 väliltä, niin se tulostuu sanana.");
+            int numerossi = int.Parse(Console.ReadLine()); //luetaan käyttäjän syöttämä numero
+
+            if (numerossi > 999 || numerossi < 0)
+            {
+                Console.WriteLine("Syöttämäsi luku täytyy olla 1-999 väliltä!");
+                goto numeroalku; //jos luku ei ole väliltä 1-999, palataan alkuun
+            }
+            else if (numerossi < 10)
+            {
+                string ykkonen = ykkoset(numerossi);
+                Console.WriteLine(ykkonen);
+            }
+            else if (numerossi < 20)
+            {
+                string poikkeus = poikkeusKympit(numerossi);
+                Console.WriteLine(poikkeus);
+            }
+            else if (numerossi < 100)
+            {
+                string kymppi = kympit(numero);
+                Console.WriteLine(kymppi);
+            }
+            else if (numerossi < 1000)
+            {
+                string sata = sadat(numerossi);
+                Console.WriteLine(sata);
+            }
+            static string ykkoset(int number)
+            {
+                switch(number) //sanoitetaan ykkösluvut
+                {
+                    case 1:
+                        return "yksi";
+                        break;
+                    case 2:
+                        return "kaksi";
+                        break;
+                    case 3:
+                        return "kolme";
+                        break;
+                    case 4:
+                        return "neljä";
+                        break;
+                    case 5:
+                        return "viisi";
+                        break;
+                    case 6:
+                        return "kuusi";
+                        break;
+                    case 7:
+                        return "seitsemän";
+                        break;
+                    case 8:
+                        return "kahdeksan";
+                        break;
+                    case 9:
+                        return "yhdeksän";
+                        break;
+                    default:
+                        return "blaah";
+                        break;
+
+                }
+            }
+            static string poikkeusKympit(int number)
+            {
+                switch(number) //sanoitetaan "poikkeusluvut"
+                {
+                    case 10:
+                        return "kymmenen";
+                        break;
+                    case 11:
+                        return "yksitoista";
+                        break;
+                    case 12:
+                        return "kaksitoista";
+                        break;
+                    case 13:
+                        return "kolmetoista";
+                        break;
+                    case 14:
+                        return "neljätoista";
+                        break;
+                    case 15:
+                        return "viisitoista";
+                        break;
+                    case 16:
+                        return "kuusitoista";
+                        break;
+                    case 17:
+                        return "seitsemäntoista";
+                        break;
+                    case 18:
+                        return "kahdeksantoista";
+                        break;
+                    case 19:
+                        return "yhdeksäntoista";
+                        break;
+                    default:
+                        return "blööh";
+                        break;
+                }
+            }
+            static string kympit(int number)
+            {
+                string x = Convert.ToString(number);
+                string eka = x.Substring(0, 1);
+                string toka = x.Substring(1, 1); //TÄSSÄ ERROR !?
+                number = Int32.Parse(eka);
+                int toinen = Int32.Parse(toka);
+                string y = ykkoset(toinen);
+
+                switch(number) //sanoitetaan kympit ja lisätään niihin ykköset
+                {
+                    case 2:
+                        return "kaksikymmentä " + y;
+                        break;
+                    case 3:
+                        return "kolmekymmentä " + y;
+                        break;
+                    case 4:
+                        return "neljäkymmentä " + y;
+                        break;
+                    case 5:
+                        return "viisikymmentä " + y;
+                        break;
+                    case 6:
+                        return "kuusikymmentä " + y;
+                        break;
+                    case 7:
+                        return "seitsemänkymmentä " + y;
+                        break;
+                    case 8:
+                        return "kahdeksankymmentä " + y;
+                        break;
+                    case 9:
+                        return "yhdeksänkymmentä " + y;
+                        break;
+                    default:
+                        return "bluuh";
+                        break;
+                }
+            }
+            static string sadat(int number)
+            {
+                string x = Convert.ToString(number);
+                string y;
+                string eka = x.Substring(0, 1);
+                string toka = x.Substring(1, 2);
+                string ptoka = x.Substring(1, 1);
+                number = Int32.Parse(eka);
+                int toinen = Int32.Parse(toka);
+                if(ptoka == "1")
+                {
+                    y = poikkeusKympit(toinen); //jos luku on 10-19
+                }
+                else
+                {
+                    y = kympit(toinen);
+                }
+                switch (number) //sanoitetaan sadat
+                {
+                    case 1:
+                        return "sata" + y;
+                        break;
+                    case 2:
+                        return "kaksisataa " + y;
+                        break;
+                    case 3:
+                        return "kolmesataa " + y;
+                        break;
+                    case 4:
+                        return "neljäsataa " + y;
+                        break;
+                    case 5:
+                        return "viisisataa " + y;
+                        break;
+                    case 6:
+                        return "kuusisataa " + y;
+                        break;
+                    case 7:
+                        return "seitsemänsataa " + y;
+                        break;
+                    case 8:
+                        return "kahdeksansataa " + y;
+                        break;
+                    case 9:
+                        return "yhdeksänsataa " + y;
+                        break;
+                    default:
+                        return "bleeh";
+                        break;
+                }
+            }
         }
+
+
 
     }
 }
