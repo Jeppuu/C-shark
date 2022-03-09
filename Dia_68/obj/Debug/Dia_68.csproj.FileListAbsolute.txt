@@ -1,0 +1,6 @@
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/bin/Debug/Dia_68.exe
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/bin/Debug/Dia_68.pdb
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/obj/Debug/Dia_68.csproj.AssemblyReference.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/obj/Debug/Dia_68.csproj.CoreCompileInputs.cache
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/obj/Debug/Dia_68.exe
+/Users/Jenna/Documents/Koodia/github/C-shark/Dia_68/obj/Debug/Dia_68.pdb
