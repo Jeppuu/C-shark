@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.Laskin.resources
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\bin\Debug\Laskin.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\bin\Debug\Laskin.exe
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\bin\Debug\Laskin.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.exe
+C:\Users\Okehittaja\source\repos\C-shark\Laskin\Laskin\obj\Debug\Laskin.pdb
