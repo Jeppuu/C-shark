@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\bin\Debug\ikalaskuri.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\bin\Debug\ikalaskuri.exe
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\bin\Debug\ikalaskuri.pdb
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.Ikalaskuri.resources
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.exe
+C:\Users\Okehittaja\source\repos\C-shark\ikalaskuri\ikalaskuri\obj\Debug\ikalaskuri.pdb
