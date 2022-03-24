@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\bin\Debug\roomalaisetNumerot.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\bin\Debug\roomalaisetNumerot.exe
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\bin\Debug\roomalaisetNumerot.pdb
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.exe
+C:\Users\Okehittaja\source\repos\C-shark\roomalaisetNumerot\roomalaisetNumerot\obj\Debug\roomalaisetNumerot.pdb

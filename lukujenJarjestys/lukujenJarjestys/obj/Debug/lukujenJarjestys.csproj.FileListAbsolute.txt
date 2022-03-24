@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\bin\Debug\lukujenJarjestys.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\bin\Debug\lukujenJarjestys.exe
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\bin\Debug\lukujenJarjestys.pdb
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.LukujenJarjestys.resources
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.exe
+C:\Users\Okehittaja\source\repos\C-shark\lukujenJarjestys\lukujenJarjestys\obj\Debug\lukujenJarjestys.pdb

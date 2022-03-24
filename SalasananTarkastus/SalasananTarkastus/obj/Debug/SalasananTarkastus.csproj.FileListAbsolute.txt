@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\bin\Debug\SalasananTarkastus.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\bin\Debug\SalasananTarkastus.exe
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\bin\Debug\SalasananTarkastus.pdb
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.SalasanaForm.resources
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.exe
+C:\Users\Okehittaja\source\repos\C-shark\SalasananTarkastus\SalasananTarkastus\obj\Debug\SalasananTarkastus.pdb
