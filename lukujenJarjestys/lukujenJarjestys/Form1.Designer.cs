@@ -82,7 +82,7 @@
             this.Controls.Add(this.uusiLukuTB);
             this.Controls.Add(this.ohjeLB);
             this.Font = new System.Drawing.Font("Myanmar Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(54)))), ((int)(((byte)(55)))));
+            this.ForeColor = System.Drawing.Color.DarkSlateBlue;
             this.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.Name = "LukujenJarjestys";
             this.Text = "Lukujen järjestys";

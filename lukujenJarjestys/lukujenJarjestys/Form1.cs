@@ -22,22 +22,35 @@ namespace lukujenJarjestys
         {
             if(e.KeyChar == (char)Keys.Enter) //kun painetaan enteriä
             {
-                if(uusiLukuTB.Text == "-999") //tällöin listataan luvut
+                try
                 {
-                    vastausLB.Text = "";
-                    int [] arr = jono.ToArray();
-                    Array.Sort(arr);
-                    foreach(var i in arr)
+                    int.Parse(uusiLukuTB.Text);
+                    if (uusiLukuTB.Text == "-999") //tällöin listataan luvut
                     {
-                        vastausLB.Text += i + " "; //lisätään välilyönnit
+                        vastausLB.Text = "";
+                        int[] arr = jono.ToArray();
+                        Array.Sort(arr);
+                        foreach (var i in arr)
+                        {
+                            vastausLB.Text += i + " "; //lisätään välilyönnit
+                        }
+                        vastausLB.ForeColor = System.Drawing.Color.DarkSlateBlue;
+                        vastausLB.Visible = true;
+                        ohje2LB.Visible = true;
                     }
-                    vastausLB.Visible = true;
-                    ohje2LB.Visible = true;
+                    else
+                    {
+                        vastausLB.Text = "";
+                        vastausLB.Visible = false;
+                        jono.Add(int.Parse(uusiLukuTB.Text));
+                        uusiLukuTB.Text = "";
+                    }
                 }
-                else
+                catch
                 {
-                    jono.Add(int.Parse(uusiLukuTB.Text));
-                    uusiLukuTB.Text = "";
+                    vastausLB.Text = "Virhe!";
+                    vastausLB.Visible = true;
+                    vastausLB.ForeColor = Color.Red;
                 }
             }
             if (e.KeyChar == (char)Keys.Escape)
