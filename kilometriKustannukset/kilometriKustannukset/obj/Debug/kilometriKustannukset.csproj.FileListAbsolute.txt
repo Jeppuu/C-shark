@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\bin\Debug\kilometriKustannukset.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\bin\Debug\kilometriKustannukset.exe
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\bin\Debug\kilometriKustannukset.pdb
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.kilometrikulut.resources
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.exe
+C:\Users\Okehittaja\source\repos\C-shark\kilometriKustannukset\kilometriKustannukset\obj\Debug\kilometriKustannukset.pdb
