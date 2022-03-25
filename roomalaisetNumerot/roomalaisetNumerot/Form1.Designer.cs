@@ -56,9 +56,9 @@
             // 
             // numeroTB
             // 
-            this.numeroTB.BackColor = System.Drawing.Color.Tan;
+            this.numeroTB.BackColor = System.Drawing.Color.Silver;
             this.numeroTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numeroTB.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.numeroTB.ForeColor = System.Drawing.Color.DimGray;
             this.numeroTB.Location = new System.Drawing.Point(128, 128);
             this.numeroTB.Name = "numeroTB";
             this.numeroTB.Size = new System.Drawing.Size(280, 35);
@@ -67,8 +67,8 @@
             // 
             // kaannaBT
             // 
-            this.kaannaBT.BackColor = System.Drawing.Color.Tan;
-            this.kaannaBT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.AntiqueWhite;
+            this.kaannaBT.BackColor = System.Drawing.Color.LightGray;
+            this.kaannaBT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.kaannaBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kaannaBT.Location = new System.Drawing.Point(189, 197);
             this.kaannaBT.Name = "kaannaBT";
@@ -81,27 +81,30 @@
             // vastausLB
             // 
             this.vastausLB.AutoSize = true;
+            this.vastausLB.Font = new System.Drawing.Font("Mongolian Baiti", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vastausLB.Location = new System.Drawing.Point(123, 279);
             this.vastausLB.Name = "vastausLB";
-            this.vastausLB.Size = new System.Drawing.Size(83, 25);
+            this.vastausLB.Size = new System.Drawing.Size(99, 30);
             this.vastausLB.TabIndex = 4;
             this.vastausLB.Text = "vastaus";
+            this.vastausLB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.vastausLB.Visible = false;
             // 
             // Form1
             // 
+            this.AcceptButton = this.kaannaBT;
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(595, 381);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(586, 339);
             this.Controls.Add(this.vastausLB);
             this.Controls.Add(this.kaannaBT);
             this.Controls.Add(this.numeroTB);
             this.Controls.Add(this.numeroLB);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.Color.Peru;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.ForeColor = System.Drawing.Color.DimGray;
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
