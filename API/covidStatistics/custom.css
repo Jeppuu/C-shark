@@ -1,0 +1,15 @@
+* {
+  color: DimGray;
+}
+body {
+  background-image: url("gradient.png");
+}
+
+
+.btn {
+  background: pink;
+  color: DimGray;
+}
+.btn:hover {
+  color: white;
+}
