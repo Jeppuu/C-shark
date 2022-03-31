@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "21030afb-5c02-417c-9bdd-94e3e63cb76f": {
+      "ProjectGuid": "21030afb-5c02-417c-9bdd-94e3e63cb76f",
+      "DisplayName": "CelsiusFarenheitMuunnin",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

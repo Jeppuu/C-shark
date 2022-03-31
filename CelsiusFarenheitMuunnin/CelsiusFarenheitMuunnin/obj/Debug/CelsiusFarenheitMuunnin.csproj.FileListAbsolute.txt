@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\bin\Debug\CelsiusFarenheitMuunnin.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\bin\Debug\CelsiusFarenheitMuunnin.exe
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\bin\Debug\CelsiusFarenheitMuunnin.pdb
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.CFMuunnin.resources
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.exe
+C:\Users\Okehittaja\source\repos\C-shark\CelsiusFarenheitMuunnin\CelsiusFarenheitMuunnin\obj\Debug\CelsiusFarenheitMuunnin.pdb
