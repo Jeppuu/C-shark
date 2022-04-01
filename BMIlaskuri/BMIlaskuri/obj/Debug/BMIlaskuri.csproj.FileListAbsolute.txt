@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\bin\Debug\BMIlaskuri.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\bin\Debug\BMIlaskuri.exe
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\bin\Debug\BMIlaskuri.pdb
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.BMIlaskuri.resources
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.exe
+C:\Users\Okehittaja\source\repos\C-shark\BMIlaskuri\BMIlaskuri\obj\Debug\BMIlaskuri.pdb
