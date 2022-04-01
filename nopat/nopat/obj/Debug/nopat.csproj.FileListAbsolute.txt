@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\bin\Debug\nopat.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\bin\Debug\nopat.exe
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\bin\Debug\nopat.pdb
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.exe
+C:\Users\Okehittaja\source\repos\C-shark\nopat\nopat\obj\Debug\nopat.pdb
