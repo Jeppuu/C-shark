@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\bin\Debug\moominQuiz.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\bin\Debug\moominQuiz.exe
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\bin\Debug\moominQuiz.pdb
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.exe
+C:\Users\Okehittaja\source\repos\C-shark\moominQuiz\moominQuiz\obj\Debug\moominQuiz.pdb
