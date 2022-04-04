@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\bin\Debug\10-kysymysta.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\bin\Debug\10-kysymysta.exe
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\bin\Debug\10-kysymysta.pdb
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\_10_kysymysta.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\_10_kysymysta.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.exe
+C:\Users\Okehittaja\source\repos\C-shark\10-kysymysta\10-kysymysta\obj\Debug\10-kysymysta.pdb
