@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\bin\Debug\paivakirja.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\bin\Debug\paivakirja.exe
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\bin\Debug\paivakirja.pdb
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.exe
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.pdb
+C:\Users\Okehittaja\source\repos\C-shark\paivakirja\paivakirja\obj\Debug\paivakirja.paivakirjaForm.resources
