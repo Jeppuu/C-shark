@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\bin\Debug\SuositutNimet.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\bin\Debug\SuositutNimet.exe
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\bin\Debug\SuositutNimet.pdb
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.Form1.resources
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.exe
+C:\Users\Okehittaja\source\repos\C-shark\SuositutNimet\SuositutNimet\obj\Debug\SuositutNimet.pdb
