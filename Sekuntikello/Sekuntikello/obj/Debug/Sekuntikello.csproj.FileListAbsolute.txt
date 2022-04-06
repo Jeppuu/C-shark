@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\bin\Debug\Sekuntikello.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\bin\Debug\Sekuntikello.exe
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\bin\Debug\Sekuntikello.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.exe
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Sekuntikello\Sekuntikello\obj\Debug\Sekuntikello.StopwatchForm.resources
