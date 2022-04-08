@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\bin\Debug\Vastuuhenkiot.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\bin\Debug\Vastuuhenkiot.exe
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\bin\Debug\Vastuuhenkiot.pdb
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.vastuuhenkilotForm.resources
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.exe
+C:\Users\Okehittaja\source\repos\C-shark\Vastuuhenkiot\Vastuuhenkiot\obj\Debug\Vastuuhenkiot.pdb
