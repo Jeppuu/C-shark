@@ -1,0 +1,7 @@
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.yllapitoForm.resources
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\CRUD\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
