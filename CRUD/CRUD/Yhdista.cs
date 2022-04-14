@@ -8,7 +8,7 @@ using System.Data;
 
 namespace CRUD
 {
-    internal class Yhdista
+    class Yhdista
     {
         public string Yhteyslause()
         {

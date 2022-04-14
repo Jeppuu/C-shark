@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.IO;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CRUD
 {
     public partial class yllapitoForm : Form
     {
+        OPISKELIJA opiskelija = new OPISKELIJA();
         public yllapitoForm()
         {
             InitializeComponent();
@@ -19,7 +21,10 @@ namespace CRUD
 
         private void yllapitoForm_Load(object sender, EventArgs e)
         {
-            tietotauluDgv.DataSource = OPISKELIJA.HaeOpiskelijat();
+            tietotauluDgv.DataSource = opiskelija.HaeOpiskelijat();
+            tietotauluDgv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            var datagridview = new DataGridView();
+            datagridview.RowTemplate.MinimumHeight = 125;
         }
 
         private void tyhjennaBtn_Click(object sender, EventArgs e)
@@ -47,17 +52,17 @@ namespace CRUD
             }
             else
             {
-                Boolean lisaaOpiskelija = OPISKELIJA.LisaaOpiskelija(enimi, snimi, puhelin, email, oNro);
+                Boolean lisaaOpiskelija = opiskelija.LisaaOpiskelija(enimi, snimi, puhelin, email, oNro);
                 if(lisaaOpiskelija)
                 {
-                    MessageBox.Show("Uusi opiskelija lisätty onnistuneesti", "Opiskelija lisätty", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Uusi opiskelija lisätty onnistuneesti!", "Opiskelija lisätty", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Uuden opiskelijan lisääminen epäonnistui", "Opiskelijaa ei lisätty", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Uuden opiskelijan lisääminen epäonnistui!", "Opiskelijaa ei lisätty", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            tietotauluDgv.DataSource = OPISKELIJA.HaeOpiskelijat();
+            tietotauluDgv.DataSource = opiskelija.HaeOpiskelijat();
         }
 
         private void paivitaBtn_Click(object sender, EventArgs e)
@@ -75,8 +80,42 @@ namespace CRUD
             }
             else
             {
-                //JATKA TÄSTÄ -> POWERPOINT DIA toisiksi viimeinen
+                Boolean lisaaOpiskelija = opiskelija.MuokkaaOpiskelijaa(oid, enimi, snimi, puhelin, email, oNro);
+                if (lisaaOpiskelija)
+                {
+                    MessageBox.Show("Opiskelija päivitetty onnistuneesti!", "Opiskelija päivitetty", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Opiskelijan päivittäminen epäonnistui!", "Opiskelijaa ei päivitetty", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+            tietotauluDgv.DataSource = opiskelija.HaeOpiskelijat();
+        }
+
+        private void tietotauluDgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            enimiTxb.Text = tietotauluDgv.CurrentRow.Cells[1].Value.ToString();
+            snimiTxb.Text = tietotauluDgv.CurrentRow.Cells[2].Value.ToString();
+            puhelinTxb.Text = tietotauluDgv.CurrentRow.Cells[3].Value.ToString();
+            emailTxb.Text = tietotauluDgv.CurrentRow.Cells[4].Value.ToString();
+            opiskelijanroTxb.Text = tietotauluDgv.CurrentRow.Cells[5].Value.ToString();
+            idTxb.Text = tietotauluDgv.CurrentRow.Cells[0].Value.ToString();
+        }
+
+        private void poistaBtn_Click(object sender, EventArgs e)
+        {
+            int ktunnus = Int32.Parse(idTxb.Text);
+            if (opiskelija.PoistaOpiskelija(ktunnus.ToString()))
+            {
+                tietotauluDgv.DataSource = opiskelija.HaeOpiskelijat();
+                MessageBox.Show("Opiskelija poistettu onnistuneesti!", "Opiskelija poistettu", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Opiskelijan poisto epäonnistui!", "Opiskelijaa ei poistettu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            tyhjennaBtn.PerformClick();
         }
     }
 }

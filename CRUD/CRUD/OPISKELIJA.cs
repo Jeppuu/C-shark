@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.IO;
 
 namespace CRUD
 {
-    internal class OPISKELIJA
+    class OPISKELIJA
     {
         Yhdista yhteys = new Yhdista();
         
