@@ -1,0 +1,11 @@
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\bin\Debug\kahvilaApp.exe.config
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\bin\Debug\kahvilaApp.exe
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\bin\Debug\kahvilaApp.pdb
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.csproj.AssemblyReference.cache
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.KavilaAppForm.resources
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.Properties.Resources.resources
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.csproj.GenerateResource.cache
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.csproj.CoreCompileInputs.cache
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.exe
+C:\Users\Okehittaja\source\repos\C-shark\kahvilaApp\kahvilaApp\obj\Debug\kahvilaApp.pdb
