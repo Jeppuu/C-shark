@@ -203,10 +203,57 @@ namespace StudyPoint
         //
         // LOGIN PANEL
         //
+
+        //open register panel from the clicking the label
         private void RegisterHereLbl_Click(object sender, EventArgs e)
         {
             RegisterPanel.Visible = true;
             LoginPanel.Visible = false;
         }
+        // check if email and password match with MySQL database
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+            String email = EmailTxb.Text;
+            String password = PasswordTxb.Text;
+
+            ValidateLogin(email, password);
+        }
+        // function for validating the log in creditentials
+        public void ValidateLogin(string email, string password)
+        {
+
+            YHDISTA yhteys = new YHDISTA();
+            string str;
+
+            str = ("SELECT * FROM register_user WHERE email ='" + email + "' And Password='" + password + "'");
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandText = str;
+            cmd.Connection = yhteys.OtaYhteys();
+
+            DataTable dt = new DataTable();
+            MySqlDataAdapter ad = new MySqlDataAdapter(cmd);
+            ad.Fill(dt);
+
+            if (dt.Rows.Count > 0) //log in succeeded, open home panel
+            {
+                HomePanel.Visible = true;
+                LoginPanel.Visible = false;
+            }
+            else //log in failed, show error message
+            {
+                LoginErrorLbl.Visible = true;
+            }
+
+        }
+
+        //
+        // HOME PANEL
+        //
+
+        private void LogoutBtn_Click(object sender, EventArgs e)
+        {
+            //logged out successfully, open login panel
+        }
+
     }
 }

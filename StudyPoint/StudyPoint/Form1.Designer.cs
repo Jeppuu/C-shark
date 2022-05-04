@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.LoginPanel = new System.Windows.Forms.Panel();
+            this.LoginErrorLbl = new System.Windows.Forms.Label();
             this.RegisterHereLbl = new System.Windows.Forms.Label();
-            this.LoginBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.PasswordTxb = new System.Windows.Forms.TextBox();
@@ -43,7 +43,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RegisterPanel = new System.Windows.Forms.Panel();
             this.ErrorLbl = new System.Windows.Forms.Label();
             this.toppanel = new System.Windows.Forms.Panel();
@@ -69,21 +68,35 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.FirstnameTxb = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.HomePanel = new System.Windows.Forms.Panel();
+            this.LogoutBtn = new System.Windows.Forms.Button();
+            this.UserProfileBtn = new System.Windows.Forms.Button();
+            this.ServicesBtn = new System.Windows.Forms.Button();
+            this.GalleryBtn = new System.Windows.Forms.Button();
+            this.DownloadsBtn = new System.Windows.Forms.Button();
+            this.DiscussionBtn = new System.Windows.Forms.Button();
+            this.AboutBtn = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.LoginBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.LoginPanel.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.RegisterPanel.SuspendLayout();
             this.toppanel.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.HomePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginPanel
             // 
+            this.LoginPanel.Controls.Add(this.LoginErrorLbl);
             this.LoginPanel.Controls.Add(this.RegisterHereLbl);
             this.LoginPanel.Controls.Add(this.LoginBtn);
             this.LoginPanel.Controls.Add(this.panel3);
@@ -100,8 +113,20 @@
             this.LoginPanel.Size = new System.Drawing.Size(721, 460);
             this.LoginPanel.TabIndex = 0;
             // 
+            // LoginErrorLbl
+            // 
+            this.LoginErrorLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginErrorLbl.ForeColor = System.Drawing.Color.IndianRed;
+            this.LoginErrorLbl.Location = new System.Drawing.Point(411, 115);
+            this.LoginErrorLbl.Name = "LoginErrorLbl";
+            this.LoginErrorLbl.Size = new System.Drawing.Size(233, 23);
+            this.LoginErrorLbl.TabIndex = 10;
+            this.LoginErrorLbl.Text = "Incorrect email or password!";
+            this.LoginErrorLbl.Visible = false;
+            // 
             // RegisterHereLbl
             // 
+            this.RegisterHereLbl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegisterHereLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterHereLbl.ForeColor = System.Drawing.Color.Teal;
             this.RegisterHereLbl.Location = new System.Drawing.Point(429, 393);
@@ -110,21 +135,6 @@
             this.RegisterHereLbl.TabIndex = 9;
             this.RegisterHereLbl.Text = "Don\'t have an account yet? Register here!";
             this.RegisterHereLbl.Click += new System.EventHandler(this.RegisterHereLbl_Click);
-            // 
-            // LoginBtn
-            // 
-            this.LoginBtn.BackColor = System.Drawing.Color.White;
-            this.LoginBtn.FlatAppearance.BorderSize = 0;
-            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
-            this.LoginBtn.Image = global::StudyPoint.Properties.Resources.icons8_right_arrow_30;
-            this.LoginBtn.Location = new System.Drawing.Point(427, 327);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(215, 53);
-            this.LoginBtn.TabIndex = 8;
-            this.LoginBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.LoginBtn.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -253,16 +263,6 @@
             this.label1.Size = new System.Drawing.Size(32, 41);
             this.label1.TabIndex = 1;
             this.label1.Text = "\"";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(282, 230);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // RegisterPanel
             // 
@@ -563,16 +563,6 @@
             this.label11.TabIndex = 1;
             this.label11.Text = "\"";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 39);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 230);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Teal;
@@ -600,12 +590,164 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.Title = "Browse images";
             // 
+            // HomePanel
+            // 
+            this.HomePanel.BackColor = System.Drawing.Color.Teal;
+            this.HomePanel.Controls.Add(this.DownloadsBtn);
+            this.HomePanel.Controls.Add(this.GalleryBtn);
+            this.HomePanel.Controls.Add(this.ServicesBtn);
+            this.HomePanel.Controls.Add(this.UserProfileBtn);
+            this.HomePanel.Controls.Add(this.DiscussionBtn);
+            this.HomePanel.Controls.Add(this.AboutBtn);
+            this.HomePanel.Controls.Add(this.LogoutBtn);
+            this.HomePanel.Controls.Add(this.pictureBox3);
+            this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HomePanel.Location = new System.Drawing.Point(0, 0);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Size = new System.Drawing.Size(721, 460);
+            this.HomePanel.TabIndex = 11;
+            this.HomePanel.Visible = false;
+            // 
+            // LogoutBtn
+            // 
+            this.LogoutBtn.BackColor = System.Drawing.Color.Teal;
+            this.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogoutBtn.Location = new System.Drawing.Point(605, 12);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.Size = new System.Drawing.Size(104, 48);
+            this.LogoutBtn.TabIndex = 25;
+            this.LogoutBtn.Text = "Log out";
+            this.LogoutBtn.UseVisualStyleBackColor = false;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
+            // 
+            // UserProfileBtn
+            // 
+            this.UserProfileBtn.Location = new System.Drawing.Point(438, 198);
+            this.UserProfileBtn.Name = "UserProfileBtn";
+            this.UserProfileBtn.Size = new System.Drawing.Size(122, 106);
+            this.UserProfileBtn.TabIndex = 28;
+            this.UserProfileBtn.Text = "button3";
+            this.UserProfileBtn.UseVisualStyleBackColor = true;
+            // 
+            // ServicesBtn
+            // 
+            this.ServicesBtn.Location = new System.Drawing.Point(130, 323);
+            this.ServicesBtn.Name = "ServicesBtn";
+            this.ServicesBtn.Size = new System.Drawing.Size(122, 106);
+            this.ServicesBtn.TabIndex = 29;
+            this.ServicesBtn.Text = "button4";
+            this.ServicesBtn.UseVisualStyleBackColor = true;
+            // 
+            // GalleryBtn
+            // 
+            this.GalleryBtn.Location = new System.Drawing.Point(284, 323);
+            this.GalleryBtn.Name = "GalleryBtn";
+            this.GalleryBtn.Size = new System.Drawing.Size(122, 106);
+            this.GalleryBtn.TabIndex = 30;
+            this.GalleryBtn.Text = "button5";
+            this.GalleryBtn.UseVisualStyleBackColor = true;
+            // 
+            // DownloadsBtn
+            // 
+            this.DownloadsBtn.Location = new System.Drawing.Point(438, 323);
+            this.DownloadsBtn.Name = "DownloadsBtn";
+            this.DownloadsBtn.Size = new System.Drawing.Size(122, 106);
+            this.DownloadsBtn.TabIndex = 31;
+            this.DownloadsBtn.Text = "button6";
+            this.DownloadsBtn.UseVisualStyleBackColor = true;
+            // 
+            // DiscussionBtn
+            // 
+            this.DiscussionBtn.BackColor = System.Drawing.Color.White;
+            this.DiscussionBtn.FlatAppearance.BorderSize = 0;
+            this.DiscussionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DiscussionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DiscussionBtn.ForeColor = System.Drawing.Color.Teal;
+            this.DiscussionBtn.Image = global::StudyPoint.Properties.Resources.icons8_chat_48;
+            this.DiscussionBtn.Location = new System.Drawing.Point(284, 198);
+            this.DiscussionBtn.Name = "DiscussionBtn";
+            this.DiscussionBtn.Size = new System.Drawing.Size(122, 106);
+            this.DiscussionBtn.TabIndex = 27;
+            this.DiscussionBtn.Text = "Discussion board";
+            this.DiscussionBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.DiscussionBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.DiscussionBtn.UseVisualStyleBackColor = false;
+            // 
+            // AboutBtn
+            // 
+            this.AboutBtn.BackColor = System.Drawing.Color.White;
+            this.AboutBtn.FlatAppearance.BorderSize = 0;
+            this.AboutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AboutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutBtn.ForeColor = System.Drawing.Color.Teal;
+            this.AboutBtn.Image = global::StudyPoint.Properties.Resources.icons8_question_mark_48;
+            this.AboutBtn.Location = new System.Drawing.Point(130, 198);
+            this.AboutBtn.Name = "AboutBtn";
+            this.AboutBtn.Size = new System.Drawing.Size(122, 106);
+            this.AboutBtn.TabIndex = 26;
+            this.AboutBtn.Text = "About us";
+            this.AboutBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AboutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AboutBtn.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
+            this.pictureBox3.Location = new System.Drawing.Point(225, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(256, 151);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // LoginBtn
+            // 
+            this.LoginBtn.BackColor = System.Drawing.Color.White;
+            this.LoginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginBtn.FlatAppearance.BorderSize = 0;
+            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
+            this.LoginBtn.Image = global::StudyPoint.Properties.Resources.icons8_right_arrow_30;
+            this.LoginBtn.Location = new System.Drawing.Point(427, 327);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(215, 53);
+            this.LoginBtn.TabIndex = 8;
+            this.LoginBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(282, 230);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 39);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(282, 230);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // StudyPointForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(721, 460);
+            this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.LoginPanel);
             this.Controls.Add(this.RegisterPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -615,12 +757,14 @@
             this.LoginPanel.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.RegisterPanel.ResumeLayout(false);
             this.RegisterPanel.PerformLayout();
             this.toppanel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.HomePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -673,6 +817,16 @@
         private System.Windows.Forms.Button browseBtn;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label ErrorLbl;
+        private System.Windows.Forms.Label LoginErrorLbl;
+        private System.Windows.Forms.Panel HomePanel;
+        private System.Windows.Forms.Button LogoutBtn;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button DownloadsBtn;
+        private System.Windows.Forms.Button GalleryBtn;
+        private System.Windows.Forms.Button ServicesBtn;
+        private System.Windows.Forms.Button UserProfileBtn;
+        private System.Windows.Forms.Button DiscussionBtn;
+        private System.Windows.Forms.Button AboutBtn;
     }
 }
 
