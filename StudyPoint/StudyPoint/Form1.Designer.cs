@@ -73,12 +73,12 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.HomePanel = new System.Windows.Forms.Panel();
             this.LogoutBtn = new System.Windows.Forms.Button();
-            this.UserProfileBtn = new System.Windows.Forms.Button();
-            this.ServicesBtn = new System.Windows.Forms.Button();
+            this.DownloadBtn = new System.Windows.Forms.Button();
             this.GalleryBtn = new System.Windows.Forms.Button();
-            this.DownloadsBtn = new System.Windows.Forms.Button();
-            this.DiscussionBtn = new System.Windows.Forms.Button();
+            this.ServicesBtn = new System.Windows.Forms.Button();
             this.AboutBtn = new System.Windows.Forms.Button();
+            this.DiscussionBtn = new System.Windows.Forms.Button();
+            this.UserProfileBtn = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -593,12 +593,12 @@
             // HomePanel
             // 
             this.HomePanel.BackColor = System.Drawing.Color.Teal;
-            this.HomePanel.Controls.Add(this.DownloadsBtn);
+            this.HomePanel.Controls.Add(this.DownloadBtn);
             this.HomePanel.Controls.Add(this.GalleryBtn);
             this.HomePanel.Controls.Add(this.ServicesBtn);
-            this.HomePanel.Controls.Add(this.UserProfileBtn);
-            this.HomePanel.Controls.Add(this.DiscussionBtn);
             this.HomePanel.Controls.Add(this.AboutBtn);
+            this.HomePanel.Controls.Add(this.DiscussionBtn);
+            this.HomePanel.Controls.Add(this.UserProfileBtn);
             this.HomePanel.Controls.Add(this.LogoutBtn);
             this.HomePanel.Controls.Add(this.pictureBox3);
             this.HomePanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -623,75 +623,101 @@
             this.LogoutBtn.UseVisualStyleBackColor = false;
             this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
             // 
-            // UserProfileBtn
+            // DownloadBtn
             // 
-            this.UserProfileBtn.Location = new System.Drawing.Point(438, 198);
-            this.UserProfileBtn.Name = "UserProfileBtn";
-            this.UserProfileBtn.Size = new System.Drawing.Size(122, 106);
-            this.UserProfileBtn.TabIndex = 28;
-            this.UserProfileBtn.Text = "button3";
-            this.UserProfileBtn.UseVisualStyleBackColor = true;
-            // 
-            // ServicesBtn
-            // 
-            this.ServicesBtn.Location = new System.Drawing.Point(130, 323);
-            this.ServicesBtn.Name = "ServicesBtn";
-            this.ServicesBtn.Size = new System.Drawing.Size(122, 106);
-            this.ServicesBtn.TabIndex = 29;
-            this.ServicesBtn.Text = "button4";
-            this.ServicesBtn.UseVisualStyleBackColor = true;
+            this.DownloadBtn.BackColor = System.Drawing.Color.Teal;
+            this.DownloadBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DownloadBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DownloadBtn.ForeColor = System.Drawing.Color.White;
+            this.DownloadBtn.Image = global::StudyPoint.Properties.Resources.icons8_download_48__1_;
+            this.DownloadBtn.Location = new System.Drawing.Point(438, 323);
+            this.DownloadBtn.Name = "DownloadBtn";
+            this.DownloadBtn.Size = new System.Drawing.Size(122, 106);
+            this.DownloadBtn.TabIndex = 39;
+            this.DownloadBtn.Text = "Download Content";
+            this.DownloadBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.DownloadBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.DownloadBtn.UseVisualStyleBackColor = false;
             // 
             // GalleryBtn
             // 
+            this.GalleryBtn.BackColor = System.Drawing.Color.Teal;
+            this.GalleryBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GalleryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GalleryBtn.ForeColor = System.Drawing.Color.White;
+            this.GalleryBtn.Image = global::StudyPoint.Properties.Resources.icons8_image_gallery_48__1_;
             this.GalleryBtn.Location = new System.Drawing.Point(284, 323);
             this.GalleryBtn.Name = "GalleryBtn";
             this.GalleryBtn.Size = new System.Drawing.Size(122, 106);
-            this.GalleryBtn.TabIndex = 30;
-            this.GalleryBtn.Text = "button5";
-            this.GalleryBtn.UseVisualStyleBackColor = true;
+            this.GalleryBtn.TabIndex = 38;
+            this.GalleryBtn.Text = "Photo Gallery";
+            this.GalleryBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.GalleryBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.GalleryBtn.UseVisualStyleBackColor = false;
             // 
-            // DownloadsBtn
+            // ServicesBtn
             // 
-            this.DownloadsBtn.Location = new System.Drawing.Point(438, 323);
-            this.DownloadsBtn.Name = "DownloadsBtn";
-            this.DownloadsBtn.Size = new System.Drawing.Size(122, 106);
-            this.DownloadsBtn.TabIndex = 31;
-            this.DownloadsBtn.Text = "button6";
-            this.DownloadsBtn.UseVisualStyleBackColor = true;
+            this.ServicesBtn.BackColor = System.Drawing.Color.Teal;
+            this.ServicesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ServicesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServicesBtn.ForeColor = System.Drawing.Color.White;
+            this.ServicesBtn.Image = global::StudyPoint.Properties.Resources.icons8_programming_48__1_;
+            this.ServicesBtn.Location = new System.Drawing.Point(130, 323);
+            this.ServicesBtn.Name = "ServicesBtn";
+            this.ServicesBtn.Size = new System.Drawing.Size(122, 106);
+            this.ServicesBtn.TabIndex = 37;
+            this.ServicesBtn.Text = "Our Services";
+            this.ServicesBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ServicesBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ServicesBtn.UseVisualStyleBackColor = false;
+            // 
+            // AboutBtn
+            // 
+            this.AboutBtn.BackColor = System.Drawing.Color.Teal;
+            this.AboutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AboutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutBtn.ForeColor = System.Drawing.Color.White;
+            this.AboutBtn.Image = global::StudyPoint.Properties.Resources.icons8_info_squared_48__1_;
+            this.AboutBtn.Location = new System.Drawing.Point(130, 198);
+            this.AboutBtn.Name = "AboutBtn";
+            this.AboutBtn.Size = new System.Drawing.Size(122, 106);
+            this.AboutBtn.TabIndex = 36;
+            this.AboutBtn.Text = "About Us";
+            this.AboutBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AboutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.AboutBtn.UseVisualStyleBackColor = false;
             // 
             // DiscussionBtn
             // 
-            this.DiscussionBtn.BackColor = System.Drawing.Color.White;
-            this.DiscussionBtn.FlatAppearance.BorderSize = 0;
+            this.DiscussionBtn.BackColor = System.Drawing.Color.Teal;
             this.DiscussionBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DiscussionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DiscussionBtn.ForeColor = System.Drawing.Color.Teal;
-            this.DiscussionBtn.Image = global::StudyPoint.Properties.Resources.icons8_chat_48;
+            this.DiscussionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DiscussionBtn.ForeColor = System.Drawing.Color.White;
+            this.DiscussionBtn.Image = global::StudyPoint.Properties.Resources.icons8_chat_48__1_;
             this.DiscussionBtn.Location = new System.Drawing.Point(284, 198);
             this.DiscussionBtn.Name = "DiscussionBtn";
             this.DiscussionBtn.Size = new System.Drawing.Size(122, 106);
-            this.DiscussionBtn.TabIndex = 27;
-            this.DiscussionBtn.Text = "Discussion board";
+            this.DiscussionBtn.TabIndex = 35;
+            this.DiscussionBtn.Text = "Discussion Forum";
             this.DiscussionBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.DiscussionBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DiscussionBtn.UseVisualStyleBackColor = false;
             // 
-            // AboutBtn
+            // UserProfileBtn
             // 
-            this.AboutBtn.BackColor = System.Drawing.Color.White;
-            this.AboutBtn.FlatAppearance.BorderSize = 0;
-            this.AboutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AboutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AboutBtn.ForeColor = System.Drawing.Color.Teal;
-            this.AboutBtn.Image = global::StudyPoint.Properties.Resources.icons8_question_mark_48;
-            this.AboutBtn.Location = new System.Drawing.Point(130, 198);
-            this.AboutBtn.Name = "AboutBtn";
-            this.AboutBtn.Size = new System.Drawing.Size(122, 106);
-            this.AboutBtn.TabIndex = 26;
-            this.AboutBtn.Text = "About us";
-            this.AboutBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.AboutBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.AboutBtn.UseVisualStyleBackColor = false;
+            this.UserProfileBtn.BackColor = System.Drawing.Color.Teal;
+            this.UserProfileBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UserProfileBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UserProfileBtn.ForeColor = System.Drawing.Color.White;
+            this.UserProfileBtn.Image = global::StudyPoint.Properties.Resources.icons8_user_48__1_;
+            this.UserProfileBtn.Location = new System.Drawing.Point(438, 198);
+            this.UserProfileBtn.Name = "UserProfileBtn";
+            this.UserProfileBtn.Size = new System.Drawing.Size(122, 106);
+            this.UserProfileBtn.TabIndex = 28;
+            this.UserProfileBtn.Text = "User Profile";
+            this.UserProfileBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.UserProfileBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UserProfileBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -753,6 +779,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StudyPointForm";
             this.Text = "Study Point";
+            this.Load += new System.EventHandler(this.StudyPointForm_Load);
             this.LoginPanel.ResumeLayout(false);
             this.LoginPanel.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -821,12 +848,12 @@
         private System.Windows.Forms.Panel HomePanel;
         private System.Windows.Forms.Button LogoutBtn;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button DownloadsBtn;
-        private System.Windows.Forms.Button GalleryBtn;
-        private System.Windows.Forms.Button ServicesBtn;
         private System.Windows.Forms.Button UserProfileBtn;
         private System.Windows.Forms.Button DiscussionBtn;
         private System.Windows.Forms.Button AboutBtn;
+        private System.Windows.Forms.Button ServicesBtn;
+        private System.Windows.Forms.Button GalleryBtn;
+        private System.Windows.Forms.Button DownloadBtn;
     }
 }
 

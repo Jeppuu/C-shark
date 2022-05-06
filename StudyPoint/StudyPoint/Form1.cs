@@ -255,5 +255,10 @@ namespace StudyPoint
             //logged out successfully, open login panel
         }
 
+        // FOR TESTING PURPOSES
+        private void StudyPointForm_Load(object sender, EventArgs e)
+        {
+            HomePanel.Visible = true;
+        }
     }
 }
