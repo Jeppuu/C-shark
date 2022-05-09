@@ -250,15 +250,66 @@ namespace StudyPoint
         // HOME PANEL
         //
 
+        //Log out button
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
             //logged out successfully, open login panel
+            MessageBox.Show("You have logged out successfully!", "Log out successfull", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            LoginPanel.Visible = true;
+            HomePanel.Visible = false;
         }
 
         // FOR TESTING PURPOSES
         private void StudyPointForm_Load(object sender, EventArgs e)
         {
             HomePanel.Visible = true;
+        }
+
+        // show about us -page on button click
+        private void AboutBtn_Click(object sender, EventArgs e)
+        {
+            AboutPanel.Visible = true;
+            HomePanel.Visible = false;
+        }
+
+        //
+        // ABOUT US PANEL
+        //
+
+        // return to home page from about us -page
+        private void ReturnBtn_Click(object sender, EventArgs e)
+        {
+            AboutPanel.Visible = false;
+            HomePanel.Visible = true;
+        }
+
+        // return to about us -page from contact us -page
+        private void ReturnFromContactBtn_Click(object sender, EventArgs e)
+        {
+            ContactUsPanel.Visible = false;
+            AboutPanel.Visible = true;
+        }
+
+        // return to about us -page from our department -page
+        private void ReturnFromDepartmentBtn_Click(object sender, EventArgs e)
+        {
+            OurDepartmentPanel.Visible = false;
+            AboutPanel.Visible = true;
+        }
+
+        //contac us label takes to contact us -page
+        private void label14_Click(object sender, EventArgs e)
+        {
+            AboutPanel.Visible = false;
+            ContactUsPanel.Visible = true;
+
+        }
+
+        // more info of our department label takes to our department -page
+        private void label15_Click(object sender, EventArgs e)
+        {
+            AboutPanel.Visible = false;
+            OurDepartmentPanel.Visible = true;
         }
     }
 }

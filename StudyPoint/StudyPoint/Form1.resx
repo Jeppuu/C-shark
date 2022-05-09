@@ -120,4 +120,11 @@
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>18, 21</value>
   </metadata>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Study Point is an application meant for students and professors as a platform for echanching their skills in programming.
+
+From Study Point you will find resources as well as a helpful community to help you in times of trouble. We offer multiple links to programming tutorials in several programming languages as well as a discussion forum, where students can post issues they need help with solving.
+
+Our active and resourceful professionals will be sure to help you out!</value>
+  </data>
 </root>

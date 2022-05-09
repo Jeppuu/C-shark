@@ -63,6 +63,16 @@ namespace StudyPoint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CEO {
+            get {
+                object obj = ResourceManager.GetObject("CEO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_chat_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-chat-48", resourceCulture);
@@ -193,6 +203,16 @@ namespace StudyPoint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_return_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-return-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_right_arrow_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-right-arrow-30", resourceCulture);
@@ -216,6 +236,16 @@ namespace StudyPoint.Properties {
         internal static System.Drawing.Bitmap icons8_user_48__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lead_programmer {
+            get {
+                object obj = ResourceManager.GetObject("lead_programmer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
