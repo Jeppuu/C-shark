@@ -32,6 +32,7 @@
             this.LoginPanel = new System.Windows.Forms.Panel();
             this.LoginErrorLbl = new System.Windows.Forms.Label();
             this.RegisterHereLbl = new System.Windows.Forms.Label();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.PasswordTxb = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RegisterPanel = new System.Windows.Forms.Panel();
             this.ErrorLbl = new System.Windows.Forms.Label();
             this.toppanel = new System.Windows.Forms.Panel();
@@ -69,53 +71,59 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.FirstnameTxb = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.HomePanel = new System.Windows.Forms.Panel();
-            this.LogoutBtn = new System.Windows.Forms.Button();
-            this.AboutPanel = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.ContactUsPanel = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.OurDepartmentPanel = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.CEOImage = new System.Windows.Forms.PictureBox();
-            this.ReturnFromDepartmentBtn = new System.Windows.Forms.Button();
-            this.ReturnFromContactBtn = new System.Windows.Forms.Button();
-            this.ReturnBtn = new System.Windows.Forms.Button();
             this.DownloadBtn = new System.Windows.Forms.Button();
             this.GalleryBtn = new System.Windows.Forms.Button();
             this.ServicesBtn = new System.Windows.Forms.Button();
             this.AboutBtn = new System.Windows.Forms.Button();
             this.DiscussionBtn = new System.Windows.Forms.Button();
             this.UserProfileBtn = new System.Windows.Forms.Button();
+            this.LogoutBtn = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.LoginBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.AboutPanel = new System.Windows.Forms.Panel();
+            this.ReturnBtn = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.ContactUsPanel = new System.Windows.Forms.Panel();
+            this.ReturnFromContactBtn = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.OurDepartmentPanel = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.CEOImage = new System.Windows.Forms.PictureBox();
+            this.ReturnFromDepartmentBtn = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.DiscussionBoardPanel = new System.Windows.Forms.Panel();
+            this.ReturnFromDiscussion = new System.Windows.Forms.Button();
+            this.NewPostTxb = new System.Windows.Forms.TextBox();
+            this.DiscussionPostsDgv = new System.Windows.Forms.DataGridView();
+            this.MakePostBtn = new System.Windows.Forms.Button();
+            this.PostErrorLbl = new System.Windows.Forms.Label();
             this.LoginPanel.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.RegisterPanel.SuspendLayout();
             this.toppanel.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.HomePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.AboutPanel.SuspendLayout();
             this.ContactUsPanel.SuspendLayout();
             this.OurDepartmentPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CEOImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.DiscussionBoardPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DiscussionPostsDgv)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginPanel
@@ -159,6 +167,23 @@
             this.RegisterHereLbl.TabIndex = 9;
             this.RegisterHereLbl.Text = "Don\'t have an account yet? Register here!";
             this.RegisterHereLbl.Click += new System.EventHandler(this.RegisterHereLbl_Click);
+            // 
+            // LoginBtn
+            // 
+            this.LoginBtn.BackColor = System.Drawing.Color.White;
+            this.LoginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginBtn.FlatAppearance.BorderSize = 0;
+            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
+            this.LoginBtn.Image = global::StudyPoint.Properties.Resources.icons8_right_arrow_30;
+            this.LoginBtn.Location = new System.Drawing.Point(427, 327);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(215, 53);
+            this.LoginBtn.TabIndex = 8;
+            this.LoginBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // panel3
             // 
@@ -287,6 +312,16 @@
             this.label1.Size = new System.Drawing.Size(32, 41);
             this.label1.TabIndex = 1;
             this.label1.Text = "\"";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(282, 230);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // RegisterPanel
             // 
@@ -587,6 +622,16 @@
             this.label11.TabIndex = 1;
             this.label11.Text = "\"";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 39);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(282, 230);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Teal;
@@ -631,240 +676,6 @@
             this.HomePanel.Size = new System.Drawing.Size(721, 460);
             this.HomePanel.TabIndex = 11;
             this.HomePanel.Visible = false;
-            // 
-            // LogoutBtn
-            // 
-            this.LogoutBtn.BackColor = System.Drawing.Color.Teal;
-            this.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
-            this.LogoutBtn.Location = new System.Drawing.Point(605, 12);
-            this.LogoutBtn.Name = "LogoutBtn";
-            this.LogoutBtn.Size = new System.Drawing.Size(104, 48);
-            this.LogoutBtn.TabIndex = 25;
-            this.LogoutBtn.Text = "Log out";
-            this.LogoutBtn.UseVisualStyleBackColor = false;
-            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
-            // 
-            // AboutPanel
-            // 
-            this.AboutPanel.BackColor = System.Drawing.Color.Teal;
-            this.AboutPanel.Controls.Add(this.ReturnBtn);
-            this.AboutPanel.Controls.Add(this.label15);
-            this.AboutPanel.Controls.Add(this.label14);
-            this.AboutPanel.Controls.Add(this.label12);
-            this.AboutPanel.Controls.Add(this.label16);
-            this.AboutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AboutPanel.Location = new System.Drawing.Point(0, 0);
-            this.AboutPanel.Name = "AboutPanel";
-            this.AboutPanel.Size = new System.Drawing.Size(721, 460);
-            this.AboutPanel.TabIndex = 40;
-            this.AboutPanel.Visible = false;
-            // 
-            // label15
-            // 
-            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(404, 387);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(305, 58);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Find more information of our department here.";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(23, 387);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(271, 50);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Need help with something?\r\nContact us!";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(277, 27);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(166, 42);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "About us";
-            // 
-            // label16
-            // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(92, 99);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(585, 260);
-            this.label16.TabIndex = 3;
-            this.label16.Text = resources.GetString("label16.Text");
-            // 
-            // ContactUsPanel
-            // 
-            this.ContactUsPanel.BackColor = System.Drawing.Color.Teal;
-            this.ContactUsPanel.Controls.Add(this.ReturnFromContactBtn);
-            this.ContactUsPanel.Controls.Add(this.label17);
-            this.ContactUsPanel.Controls.Add(this.label18);
-            this.ContactUsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ContactUsPanel.ForeColor = System.Drawing.Color.White;
-            this.ContactUsPanel.Location = new System.Drawing.Point(0, 0);
-            this.ContactUsPanel.Name = "ContactUsPanel";
-            this.ContactUsPanel.Size = new System.Drawing.Size(721, 460);
-            this.ContactUsPanel.TabIndex = 5;
-            this.ContactUsPanel.Visible = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(277, 26);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(197, 42);
-            this.label17.TabIndex = 5;
-            this.label17.Text = "Contact us";
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(92, 107);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(585, 260);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "department@studypoint.com\r\n\r\np. +358401234567\r\n\r\nJava Lane 3 C Tomtown 0000 Earth" +
-    "\r\n\r\nWe will attend to your inquiry as soon as possible!";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // OurDepartmentPanel
-            // 
-            this.OurDepartmentPanel.BackColor = System.Drawing.Color.Teal;
-            this.OurDepartmentPanel.Controls.Add(this.label22);
-            this.OurDepartmentPanel.Controls.Add(this.pictureBox4);
-            this.OurDepartmentPanel.Controls.Add(this.label21);
-            this.OurDepartmentPanel.Controls.Add(this.CEOImage);
-            this.OurDepartmentPanel.Controls.Add(this.ReturnFromDepartmentBtn);
-            this.OurDepartmentPanel.Controls.Add(this.label19);
-            this.OurDepartmentPanel.Controls.Add(this.label20);
-            this.OurDepartmentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OurDepartmentPanel.ForeColor = System.Drawing.Color.White;
-            this.OurDepartmentPanel.Location = new System.Drawing.Point(0, 0);
-            this.OurDepartmentPanel.Name = "OurDepartmentPanel";
-            this.OurDepartmentPanel.Size = new System.Drawing.Size(721, 460);
-            this.OurDepartmentPanel.TabIndex = 5;
-            this.OurDepartmentPanel.Visible = false;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(239, 26);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(284, 42);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Our Department";
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(89, 107);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(585, 179);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Our department consists of two people, our CEO and our Lead Programmer.\r\n\r\nBoth o" +
-    "f them have been working on Study Point since the beginning and are very passion" +
-    "ate about their work here.";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(152, 303);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(214, 133);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "Abram Python\r\nCEO\r\nabram@studypoint.com";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(506, 302);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(214, 133);
-            this.label22.TabIndex = 14;
-            this.label22.Text = "Jane Ruby\r\nLead Programmer\r\njane@studypoint.com";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::StudyPoint.Properties.Resources.lead_programmer;
-            this.pictureBox4.Location = new System.Drawing.Point(366, 302);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(134, 134);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 13;
-            this.pictureBox4.TabStop = false;
-            // 
-            // CEOImage
-            // 
-            this.CEOImage.Image = global::StudyPoint.Properties.Resources.CEO;
-            this.CEOImage.Location = new System.Drawing.Point(12, 303);
-            this.CEOImage.Name = "CEOImage";
-            this.CEOImage.Size = new System.Drawing.Size(134, 134);
-            this.CEOImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.CEOImage.TabIndex = 11;
-            this.CEOImage.TabStop = false;
-            // 
-            // ReturnFromDepartmentBtn
-            // 
-            this.ReturnFromDepartmentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReturnFromDepartmentBtn.ForeColor = System.Drawing.Color.White;
-            this.ReturnFromDepartmentBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
-            this.ReturnFromDepartmentBtn.Location = new System.Drawing.Point(12, 18);
-            this.ReturnFromDepartmentBtn.Name = "ReturnFromDepartmentBtn";
-            this.ReturnFromDepartmentBtn.Size = new System.Drawing.Size(71, 50);
-            this.ReturnFromDepartmentBtn.TabIndex = 10;
-            this.ReturnFromDepartmentBtn.UseVisualStyleBackColor = true;
-            this.ReturnFromDepartmentBtn.Click += new System.EventHandler(this.ReturnFromDepartmentBtn_Click);
-            // 
-            // ReturnFromContactBtn
-            // 
-            this.ReturnFromContactBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReturnFromContactBtn.ForeColor = System.Drawing.Color.White;
-            this.ReturnFromContactBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
-            this.ReturnFromContactBtn.Location = new System.Drawing.Point(15, 18);
-            this.ReturnFromContactBtn.Name = "ReturnFromContactBtn";
-            this.ReturnFromContactBtn.Size = new System.Drawing.Size(71, 50);
-            this.ReturnFromContactBtn.TabIndex = 7;
-            this.ReturnFromContactBtn.UseVisualStyleBackColor = true;
-            this.ReturnFromContactBtn.Click += new System.EventHandler(this.ReturnFromContactBtn_Click);
-            // 
-            // ReturnBtn
-            // 
-            this.ReturnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReturnBtn.ForeColor = System.Drawing.Color.White;
-            this.ReturnBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
-            this.ReturnBtn.Location = new System.Drawing.Point(15, 10);
-            this.ReturnBtn.Name = "ReturnBtn";
-            this.ReturnBtn.Size = new System.Drawing.Size(71, 50);
-            this.ReturnBtn.TabIndex = 4;
-            this.ReturnBtn.UseVisualStyleBackColor = true;
-            this.ReturnBtn.Click += new System.EventHandler(this.ReturnBtn_Click);
             // 
             // DownloadBtn
             // 
@@ -942,10 +753,11 @@
             this.DiscussionBtn.Name = "DiscussionBtn";
             this.DiscussionBtn.Size = new System.Drawing.Size(122, 106);
             this.DiscussionBtn.TabIndex = 35;
-            this.DiscussionBtn.Text = "Discussion Forum";
+            this.DiscussionBtn.Text = "Discussion Board";
             this.DiscussionBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.DiscussionBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DiscussionBtn.UseVisualStyleBackColor = false;
+            this.DiscussionBtn.Click += new System.EventHandler(this.DiscussionBtn_Click);
             // 
             // UserProfileBtn
             // 
@@ -963,6 +775,21 @@
             this.UserProfileBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UserProfileBtn.UseVisualStyleBackColor = false;
             // 
+            // LogoutBtn
+            // 
+            this.LogoutBtn.BackColor = System.Drawing.Color.Teal;
+            this.LogoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogoutBtn.Location = new System.Drawing.Point(605, 12);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.Size = new System.Drawing.Size(104, 48);
+            this.LogoutBtn.TabIndex = 25;
+            this.LogoutBtn.Text = "Log out";
+            this.LogoutBtn.UseVisualStyleBackColor = false;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -974,42 +801,296 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // LoginBtn
+            // AboutPanel
             // 
-            this.LoginBtn.BackColor = System.Drawing.Color.White;
-            this.LoginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginBtn.FlatAppearance.BorderSize = 0;
-            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
-            this.LoginBtn.Image = global::StudyPoint.Properties.Resources.icons8_right_arrow_30;
-            this.LoginBtn.Location = new System.Drawing.Point(427, 327);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(215, 53);
-            this.LoginBtn.TabIndex = 8;
-            this.LoginBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.LoginBtn.UseVisualStyleBackColor = false;
-            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            this.AboutPanel.BackColor = System.Drawing.Color.Teal;
+            this.AboutPanel.Controls.Add(this.ReturnBtn);
+            this.AboutPanel.Controls.Add(this.label15);
+            this.AboutPanel.Controls.Add(this.label14);
+            this.AboutPanel.Controls.Add(this.label12);
+            this.AboutPanel.Controls.Add(this.label16);
+            this.AboutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AboutPanel.Location = new System.Drawing.Point(0, 0);
+            this.AboutPanel.Name = "AboutPanel";
+            this.AboutPanel.Size = new System.Drawing.Size(721, 460);
+            this.AboutPanel.TabIndex = 40;
+            this.AboutPanel.Visible = false;
             // 
-            // pictureBox1
+            // ReturnBtn
             // 
-            this.pictureBox1.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(282, 230);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.ReturnBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReturnBtn.ForeColor = System.Drawing.Color.White;
+            this.ReturnBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
+            this.ReturnBtn.Location = new System.Drawing.Point(15, 10);
+            this.ReturnBtn.Name = "ReturnBtn";
+            this.ReturnBtn.Size = new System.Drawing.Size(71, 50);
+            this.ReturnBtn.TabIndex = 4;
+            this.ReturnBtn.UseVisualStyleBackColor = true;
+            this.ReturnBtn.Click += new System.EventHandler(this.ReturnBtn_Click);
             // 
-            // pictureBox2
+            // label15
             // 
-            this.pictureBox2.Image = global::StudyPoint.Properties.Resources.logo_nobgrd;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 39);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(282, 230);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(404, 387);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(305, 58);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Find more information of our department here.";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(23, 387);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(271, 50);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Need help with something?\r\nContact us!";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(277, 27);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(166, 42);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "About us";
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(92, 99);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(585, 260);
+            this.label16.TabIndex = 3;
+            this.label16.Text = resources.GetString("label16.Text");
+            // 
+            // ContactUsPanel
+            // 
+            this.ContactUsPanel.BackColor = System.Drawing.Color.Teal;
+            this.ContactUsPanel.Controls.Add(this.ReturnFromContactBtn);
+            this.ContactUsPanel.Controls.Add(this.label17);
+            this.ContactUsPanel.Controls.Add(this.label18);
+            this.ContactUsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ContactUsPanel.ForeColor = System.Drawing.Color.White;
+            this.ContactUsPanel.Location = new System.Drawing.Point(0, 0);
+            this.ContactUsPanel.Name = "ContactUsPanel";
+            this.ContactUsPanel.Size = new System.Drawing.Size(721, 460);
+            this.ContactUsPanel.TabIndex = 5;
+            this.ContactUsPanel.Visible = false;
+            // 
+            // ReturnFromContactBtn
+            // 
+            this.ReturnFromContactBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReturnFromContactBtn.ForeColor = System.Drawing.Color.White;
+            this.ReturnFromContactBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
+            this.ReturnFromContactBtn.Location = new System.Drawing.Point(15, 18);
+            this.ReturnFromContactBtn.Name = "ReturnFromContactBtn";
+            this.ReturnFromContactBtn.Size = new System.Drawing.Size(71, 50);
+            this.ReturnFromContactBtn.TabIndex = 7;
+            this.ReturnFromContactBtn.UseVisualStyleBackColor = true;
+            this.ReturnFromContactBtn.Click += new System.EventHandler(this.ReturnFromContactBtn_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(277, 26);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(197, 42);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "Contact us";
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(92, 107);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(585, 260);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "department@studypoint.com\r\n\r\np. +358401234567\r\n\r\nJava Lane 3 C Tomtown 0000 Earth" +
+    "\r\n\r\nWe will attend to your inquiry as soon as possible!";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OurDepartmentPanel
+            // 
+            this.OurDepartmentPanel.BackColor = System.Drawing.Color.Teal;
+            this.OurDepartmentPanel.Controls.Add(this.label22);
+            this.OurDepartmentPanel.Controls.Add(this.pictureBox4);
+            this.OurDepartmentPanel.Controls.Add(this.label21);
+            this.OurDepartmentPanel.Controls.Add(this.CEOImage);
+            this.OurDepartmentPanel.Controls.Add(this.ReturnFromDepartmentBtn);
+            this.OurDepartmentPanel.Controls.Add(this.label19);
+            this.OurDepartmentPanel.Controls.Add(this.label20);
+            this.OurDepartmentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.OurDepartmentPanel.ForeColor = System.Drawing.Color.White;
+            this.OurDepartmentPanel.Location = new System.Drawing.Point(0, 0);
+            this.OurDepartmentPanel.Name = "OurDepartmentPanel";
+            this.OurDepartmentPanel.Size = new System.Drawing.Size(721, 460);
+            this.OurDepartmentPanel.TabIndex = 5;
+            this.OurDepartmentPanel.Visible = false;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(506, 302);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(214, 133);
+            this.label22.TabIndex = 14;
+            this.label22.Text = "Jane Ruby\r\nLead Programmer\r\njane@studypoint.com";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::StudyPoint.Properties.Resources.lead_programmer;
+            this.pictureBox4.Location = new System.Drawing.Point(366, 302);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(134, 134);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(152, 303);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(214, 133);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "Abram Python\r\nCEO\r\nabram@studypoint.com";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // CEOImage
+            // 
+            this.CEOImage.Image = global::StudyPoint.Properties.Resources.CEO;
+            this.CEOImage.Location = new System.Drawing.Point(12, 303);
+            this.CEOImage.Name = "CEOImage";
+            this.CEOImage.Size = new System.Drawing.Size(134, 134);
+            this.CEOImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CEOImage.TabIndex = 11;
+            this.CEOImage.TabStop = false;
+            // 
+            // ReturnFromDepartmentBtn
+            // 
+            this.ReturnFromDepartmentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReturnFromDepartmentBtn.ForeColor = System.Drawing.Color.White;
+            this.ReturnFromDepartmentBtn.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
+            this.ReturnFromDepartmentBtn.Location = new System.Drawing.Point(12, 18);
+            this.ReturnFromDepartmentBtn.Name = "ReturnFromDepartmentBtn";
+            this.ReturnFromDepartmentBtn.Size = new System.Drawing.Size(71, 50);
+            this.ReturnFromDepartmentBtn.TabIndex = 10;
+            this.ReturnFromDepartmentBtn.UseVisualStyleBackColor = true;
+            this.ReturnFromDepartmentBtn.Click += new System.EventHandler(this.ReturnFromDepartmentBtn_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(239, 26);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(284, 42);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Our Department";
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(89, 107);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(585, 179);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Our department consists of two people, our CEO and our Lead Programmer.\r\n\r\nBoth o" +
+    "f them have been working on Study Point since the beginning and are very passion" +
+    "ate about their work here.";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DiscussionBoardPanel
+            // 
+            this.DiscussionBoardPanel.BackColor = System.Drawing.Color.Teal;
+            this.DiscussionBoardPanel.Controls.Add(this.PostErrorLbl);
+            this.DiscussionBoardPanel.Controls.Add(this.MakePostBtn);
+            this.DiscussionBoardPanel.Controls.Add(this.DiscussionPostsDgv);
+            this.DiscussionBoardPanel.Controls.Add(this.NewPostTxb);
+            this.DiscussionBoardPanel.Controls.Add(this.ReturnFromDiscussion);
+            this.DiscussionBoardPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DiscussionBoardPanel.Location = new System.Drawing.Point(0, 0);
+            this.DiscussionBoardPanel.Name = "DiscussionBoardPanel";
+            this.DiscussionBoardPanel.Size = new System.Drawing.Size(721, 460);
+            this.DiscussionBoardPanel.TabIndex = 40;
+            // 
+            // ReturnFromDiscussion
+            // 
+            this.ReturnFromDiscussion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReturnFromDiscussion.ForeColor = System.Drawing.Color.White;
+            this.ReturnFromDiscussion.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
+            this.ReturnFromDiscussion.Location = new System.Drawing.Point(3, 3);
+            this.ReturnFromDiscussion.Name = "ReturnFromDiscussion";
+            this.ReturnFromDiscussion.Size = new System.Drawing.Size(71, 50);
+            this.ReturnFromDiscussion.TabIndex = 5;
+            this.ReturnFromDiscussion.UseVisualStyleBackColor = true;
+            this.ReturnFromDiscussion.Click += new System.EventHandler(this.ReturnFromDiscussion_Click);
+            // 
+            // NewPostTxb
+            // 
+            this.NewPostTxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPostTxb.ForeColor = System.Drawing.Color.DimGray;
+            this.NewPostTxb.Location = new System.Drawing.Point(96, 337);
+            this.NewPostTxb.Multiline = true;
+            this.NewPostTxb.Name = "NewPostTxb";
+            this.NewPostTxb.Size = new System.Drawing.Size(363, 100);
+            this.NewPostTxb.TabIndex = 7;
+            this.NewPostTxb.Text = "Write a post...";
+            this.NewPostTxb.Enter += new System.EventHandler(this.NewPostTxb_Enter);
+            this.NewPostTxb.Leave += new System.EventHandler(this.NewPostTxb_Leave);
+            // 
+            // DiscussionPostsDgv
+            // 
+            this.DiscussionPostsDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DiscussionPostsDgv.Location = new System.Drawing.Point(96, 54);
+            this.DiscussionPostsDgv.Name = "DiscussionPostsDgv";
+            this.DiscussionPostsDgv.Size = new System.Drawing.Size(613, 260);
+            this.DiscussionPostsDgv.TabIndex = 8;
+            // 
+            // MakePostBtn
+            // 
+            this.MakePostBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MakePostBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MakePostBtn.ForeColor = System.Drawing.Color.White;
+            this.MakePostBtn.Location = new System.Drawing.Point(465, 337);
+            this.MakePostBtn.Name = "MakePostBtn";
+            this.MakePostBtn.Size = new System.Drawing.Size(95, 100);
+            this.MakePostBtn.TabIndex = 9;
+            this.MakePostBtn.Text = "Make a new post!";
+            this.MakePostBtn.UseVisualStyleBackColor = true;
+            this.MakePostBtn.Click += new System.EventHandler(this.MakePostBtn_Click);
+            // 
+            // PostErrorLbl
+            // 
+            this.PostErrorLbl.BackColor = System.Drawing.Color.Transparent;
+            this.PostErrorLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PostErrorLbl.ForeColor = System.Drawing.Color.Firebrick;
+            this.PostErrorLbl.Location = new System.Drawing.Point(566, 359);
+            this.PostErrorLbl.Name = "PostErrorLbl";
+            this.PostErrorLbl.Size = new System.Drawing.Size(129, 58);
+            this.PostErrorLbl.TabIndex = 10;
+            this.PostErrorLbl.Text = "Can\'t post an empty question!";
+            this.PostErrorLbl.Visible = false;
             // 
             // StudyPointForm
             // 
@@ -1017,6 +1098,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(721, 460);
+            this.Controls.Add(this.DiscussionBoardPanel);
             this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.AboutPanel);
             this.Controls.Add(this.OurDepartmentPanel);
@@ -1031,12 +1113,15 @@
             this.LoginPanel.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.RegisterPanel.ResumeLayout(false);
             this.RegisterPanel.PerformLayout();
             this.toppanel.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.HomePanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.AboutPanel.ResumeLayout(false);
             this.AboutPanel.PerformLayout();
             this.ContactUsPanel.ResumeLayout(false);
@@ -1045,9 +1130,9 @@
             this.OurDepartmentPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CEOImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.DiscussionBoardPanel.ResumeLayout(false);
+            this.DiscussionBoardPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DiscussionPostsDgv)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1127,6 +1212,12 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel DiscussionBoardPanel;
+        private System.Windows.Forms.Button MakePostBtn;
+        private System.Windows.Forms.DataGridView DiscussionPostsDgv;
+        private System.Windows.Forms.TextBox NewPostTxb;
+        private System.Windows.Forms.Button ReturnFromDiscussion;
+        private System.Windows.Forms.Label PostErrorLbl;
     }
 }
 

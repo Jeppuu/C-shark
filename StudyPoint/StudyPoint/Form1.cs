@@ -14,11 +14,30 @@ namespace StudyPoint
     public partial class StudyPointForm : Form
     {
         // connect to USER class
-        USER user = new USER(); 
+        USER user = new USER();
         public StudyPointForm()
         {
             InitializeComponent();
         }
+
+        private void StudyPointForm_Load(object sender, EventArgs e)
+        {
+            // FOR TESTING PURPOSES
+            HomePanel.Visible = true;
+            //
+
+            // load data to discussion board
+            DiscussionPostsDgv.DataSource = user.FetchQuestions();
+            DiscussionPostsDgv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            var datagridview = new DataGridView();
+            datagridview.RowTemplate.MinimumHeight = 150;
+            //adjust the column width
+            DataGridViewColumn column = DiscussionPostsDgv.Columns[0];
+            column.Width = 420;
+            DataGridViewColumn column2 = DiscussionPostsDgv.Columns[1];
+            column2.Width = 150;
+        }
+
         //
         // REGISTER PANEL
         //
@@ -50,7 +69,7 @@ namespace StudyPoint
         //
         private void FirstnameTxb_Enter(object sender, EventArgs e)
         {
-            if(FirstnameTxb.Text == "First name")
+            if (FirstnameTxb.Text == "First name")
             {
                 FirstnameTxb.Text = "";
             }
@@ -58,7 +77,7 @@ namespace StudyPoint
 
         private void FirstnameTxb_Leave(object sender, EventArgs e)
         {
-            if(FirstnameTxb.Text == "")
+            if (FirstnameTxb.Text == "")
             {
                 FirstnameTxb.Text = "First name";
             }
@@ -173,8 +192,8 @@ namespace StudyPoint
             String confirmPswd = ConfirmPswdTxb.Text;
             String profilePic = openFileDialog1.FileName;
 
-            if (fname.Trim().Equals("") || fname.Trim().Equals("First name") || lname.Trim().Equals("") || lname.Trim().Equals("Last name") 
-                || occupation.Trim().Equals("") || occupation.Trim().Equals("Occupation") || mobile.Trim().Equals("") || mobile.Trim().Equals("Mobile number") 
+            if (fname.Trim().Equals("") || fname.Trim().Equals("First name") || lname.Trim().Equals("") || lname.Trim().Equals("Last name")
+                || occupation.Trim().Equals("") || occupation.Trim().Equals("Occupation") || mobile.Trim().Equals("") || mobile.Trim().Equals("Mobile number")
                 || email.Trim().Equals("") || email.Trim().Equals("Email") || password.Trim().Equals("") || password.Trim().Equals("Password"))
             {
                 ErrorLbl.Visible = true;
@@ -259,17 +278,20 @@ namespace StudyPoint
             HomePanel.Visible = false;
         }
 
-        // FOR TESTING PURPOSES
-        private void StudyPointForm_Load(object sender, EventArgs e)
-        {
-            HomePanel.Visible = true;
-        }
+        
 
         // show about us -page on button click
         private void AboutBtn_Click(object sender, EventArgs e)
         {
             AboutPanel.Visible = true;
             HomePanel.Visible = false;
+        }
+
+        // show discussion board on button click
+        private void DiscussionBtn_Click(object sender, EventArgs e)
+        {
+            HomePanel.Visible = false;
+            DiscussionBoardPanel.Visible = true;
         }
 
         //
@@ -311,5 +333,73 @@ namespace StudyPoint
             AboutPanel.Visible = false;
             OurDepartmentPanel.Visible = true;
         }
+
+        //
+        // DISCUSSION FORUM
+        //
+
+        // clear the post textbox on focus
+        private void NewPostTxb_Enter(object sender, EventArgs e)
+        {
+            if (NewPostTxb.Text == "Write a post...")
+            {
+                NewPostTxb.Text = "";
+            }
+        }
+        //write the instructions again if nothing was written
+        private void NewPostTxb_Leave(object sender, EventArgs e)
+        {
+            if (NewPostTxb.Text == "")
+            {
+                NewPostTxb.Text = "Write a post...";
+            }
+        }
+
+        // post the question to database
+        private void MakePostBtn_Click(object sender, EventArgs e)
+        {
+            String question = NewPostTxb.Text;
+            DateTime date = System.DateTime.Now;
+
+
+            if (question.Trim().Equals(""))
+            {
+                PostErrorLbl.Visible = true;
+
+            }
+
+            else
+            {
+                Boolean PostQuestion = user.PostQuestion(question,date);
+                if (PostQuestion)
+                {
+                    MessageBox.Show("Question posted!", "Post successfull", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MessageBox.Show("Failed to post question! Please try again!", "Posting failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            // load new posted data to discussion board
+            DiscussionPostsDgv.DataSource = user.FetchQuestions();
+            DiscussionPostsDgv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            var datagridview = new DataGridView();
+            datagridview.RowTemplate.MinimumHeight = 150;
+            //adjust the column width
+            DataGridViewColumn column = DiscussionPostsDgv.Columns[0];
+            column.Width = 420;
+            DataGridViewColumn column2 = DiscussionPostsDgv.Columns[1];
+            column2.Width = 150;
+        }
+        // return to home page from discussion board
+        private void ReturnFromDiscussion_Click(object sender, EventArgs e)
+        {
+            HomePanel.Visible = true;
+            DiscussionBoardPanel.Visible = false;
+        }
+
+       
     }
 }

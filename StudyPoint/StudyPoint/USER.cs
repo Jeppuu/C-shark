@@ -45,5 +45,51 @@ namespace StudyPoint
                 return false;
             }
         }
+
+        //
+        // register a new post to Mysql database
+        //
+        public bool PostQuestion(String question, DateTime date)
+        {
+            MySqlCommand command = new MySqlCommand();
+            String extra = "INSERT INTO questions " +
+                "(question, question_date) " +
+                "VALUES (@qst, @qdt); ";
+            command.CommandText = extra;
+            command.Connection = yhteys.OtaYhteys();
+
+            //Define values
+            command.Parameters.Add("@qst", MySqlDbType.VarChar).Value = question;
+            command.Parameters.Add("@qdt", MySqlDbType.DateTime).Value = date;
+            
+
+            yhteys.AvaaYhteys();
+            if (command.ExecuteNonQuery() == 1)
+            {
+                yhteys.SuljeYhteys();
+                return true;
+            }
+            else
+            {
+                yhteys.SuljeYhteys();
+                return false;
+            }
+        }
+
+        //
+        // fetch all questions for Mysql database
+        //
+        public DataTable FetchQuestions()
+        {
+            MySqlCommand komento = new MySqlCommand("SELECT question, question_date FROM questions", yhteys.OtaYhteys());
+            MySqlDataAdapter adapteri = new MySqlDataAdapter();
+            DataTable taulu = new DataTable();
+
+            //fill the created table with the information from command
+            adapteri.SelectCommand = komento;
+            adapteri.Fill(taulu);
+
+            return taulu;
+        }
     }
 }
