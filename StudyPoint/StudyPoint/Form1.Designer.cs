@@ -103,11 +103,12 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.DiscussionBoardPanel = new System.Windows.Forms.Panel();
-            this.ReturnFromDiscussion = new System.Windows.Forms.Button();
-            this.NewPostTxb = new System.Windows.Forms.TextBox();
-            this.DiscussionPostsDgv = new System.Windows.Forms.DataGridView();
-            this.MakePostBtn = new System.Windows.Forms.Button();
             this.PostErrorLbl = new System.Windows.Forms.Label();
+            this.MakePostBtn = new System.Windows.Forms.Button();
+            this.DiscussionPostsDgv = new System.Windows.Forms.DataGridView();
+            this.NewPostTxb = new System.Windows.Forms.TextBox();
+            this.ReturnFromDiscussion = new System.Windows.Forms.Button();
+            this.CommentPanel = new System.Windows.Forms.Panel();
             this.LoginPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1034,38 +1035,17 @@
             this.DiscussionBoardPanel.Size = new System.Drawing.Size(721, 460);
             this.DiscussionBoardPanel.TabIndex = 40;
             // 
-            // ReturnFromDiscussion
+            // PostErrorLbl
             // 
-            this.ReturnFromDiscussion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReturnFromDiscussion.ForeColor = System.Drawing.Color.White;
-            this.ReturnFromDiscussion.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
-            this.ReturnFromDiscussion.Location = new System.Drawing.Point(3, 3);
-            this.ReturnFromDiscussion.Name = "ReturnFromDiscussion";
-            this.ReturnFromDiscussion.Size = new System.Drawing.Size(71, 50);
-            this.ReturnFromDiscussion.TabIndex = 5;
-            this.ReturnFromDiscussion.UseVisualStyleBackColor = true;
-            this.ReturnFromDiscussion.Click += new System.EventHandler(this.ReturnFromDiscussion_Click);
-            // 
-            // NewPostTxb
-            // 
-            this.NewPostTxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewPostTxb.ForeColor = System.Drawing.Color.DimGray;
-            this.NewPostTxb.Location = new System.Drawing.Point(96, 337);
-            this.NewPostTxb.Multiline = true;
-            this.NewPostTxb.Name = "NewPostTxb";
-            this.NewPostTxb.Size = new System.Drawing.Size(363, 100);
-            this.NewPostTxb.TabIndex = 7;
-            this.NewPostTxb.Text = "Write a post...";
-            this.NewPostTxb.Enter += new System.EventHandler(this.NewPostTxb_Enter);
-            this.NewPostTxb.Leave += new System.EventHandler(this.NewPostTxb_Leave);
-            // 
-            // DiscussionPostsDgv
-            // 
-            this.DiscussionPostsDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DiscussionPostsDgv.Location = new System.Drawing.Point(96, 54);
-            this.DiscussionPostsDgv.Name = "DiscussionPostsDgv";
-            this.DiscussionPostsDgv.Size = new System.Drawing.Size(613, 260);
-            this.DiscussionPostsDgv.TabIndex = 8;
+            this.PostErrorLbl.BackColor = System.Drawing.Color.Transparent;
+            this.PostErrorLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PostErrorLbl.ForeColor = System.Drawing.Color.Firebrick;
+            this.PostErrorLbl.Location = new System.Drawing.Point(566, 359);
+            this.PostErrorLbl.Name = "PostErrorLbl";
+            this.PostErrorLbl.Size = new System.Drawing.Size(129, 58);
+            this.PostErrorLbl.TabIndex = 10;
+            this.PostErrorLbl.Text = "Can\'t post an empty question!";
+            this.PostErrorLbl.Visible = false;
             // 
             // MakePostBtn
             // 
@@ -1080,17 +1060,53 @@
             this.MakePostBtn.UseVisualStyleBackColor = true;
             this.MakePostBtn.Click += new System.EventHandler(this.MakePostBtn_Click);
             // 
-            // PostErrorLbl
+            // DiscussionPostsDgv
             // 
-            this.PostErrorLbl.BackColor = System.Drawing.Color.Transparent;
-            this.PostErrorLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PostErrorLbl.ForeColor = System.Drawing.Color.Firebrick;
-            this.PostErrorLbl.Location = new System.Drawing.Point(566, 359);
-            this.PostErrorLbl.Name = "PostErrorLbl";
-            this.PostErrorLbl.Size = new System.Drawing.Size(129, 58);
-            this.PostErrorLbl.TabIndex = 10;
-            this.PostErrorLbl.Text = "Can\'t post an empty question!";
-            this.PostErrorLbl.Visible = false;
+            this.DiscussionPostsDgv.BackgroundColor = System.Drawing.Color.Teal;
+            this.DiscussionPostsDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DiscussionPostsDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DiscussionPostsDgv.GridColor = System.Drawing.Color.DimGray;
+            this.DiscussionPostsDgv.Location = new System.Drawing.Point(96, 54);
+            this.DiscussionPostsDgv.Name = "DiscussionPostsDgv";
+            this.DiscussionPostsDgv.ReadOnly = true;
+            this.DiscussionPostsDgv.Size = new System.Drawing.Size(613, 260);
+            this.DiscussionPostsDgv.TabIndex = 8;
+            this.DiscussionPostsDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DiscussionPostsDgv_CellClick);
+            // 
+            // NewPostTxb
+            // 
+            this.NewPostTxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPostTxb.ForeColor = System.Drawing.Color.DimGray;
+            this.NewPostTxb.Location = new System.Drawing.Point(96, 337);
+            this.NewPostTxb.Multiline = true;
+            this.NewPostTxb.Name = "NewPostTxb";
+            this.NewPostTxb.Size = new System.Drawing.Size(363, 100);
+            this.NewPostTxb.TabIndex = 7;
+            this.NewPostTxb.Text = "Write a post...";
+            this.NewPostTxb.Enter += new System.EventHandler(this.NewPostTxb_Enter);
+            this.NewPostTxb.Leave += new System.EventHandler(this.NewPostTxb_Leave);
+            // 
+            // ReturnFromDiscussion
+            // 
+            this.ReturnFromDiscussion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReturnFromDiscussion.ForeColor = System.Drawing.Color.White;
+            this.ReturnFromDiscussion.Image = global::StudyPoint.Properties.Resources.icons8_return_48;
+            this.ReturnFromDiscussion.Location = new System.Drawing.Point(3, 3);
+            this.ReturnFromDiscussion.Name = "ReturnFromDiscussion";
+            this.ReturnFromDiscussion.Size = new System.Drawing.Size(71, 50);
+            this.ReturnFromDiscussion.TabIndex = 5;
+            this.ReturnFromDiscussion.UseVisualStyleBackColor = true;
+            this.ReturnFromDiscussion.Click += new System.EventHandler(this.ReturnFromDiscussion_Click);
+            // 
+            // CommentPanel
+            // 
+            this.CommentPanel.BackColor = System.Drawing.Color.Teal;
+            this.CommentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CommentPanel.Location = new System.Drawing.Point(0, 0);
+            this.CommentPanel.Name = "CommentPanel";
+            this.CommentPanel.Size = new System.Drawing.Size(721, 460);
+            this.CommentPanel.TabIndex = 11;
+            this.CommentPanel.Visible = false;
             // 
             // StudyPointForm
             // 
@@ -1098,6 +1114,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(721, 460);
+            this.Controls.Add(this.CommentPanel);
             this.Controls.Add(this.DiscussionBoardPanel);
             this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.AboutPanel);
@@ -1218,6 +1235,7 @@
         private System.Windows.Forms.TextBox NewPostTxb;
         private System.Windows.Forms.Button ReturnFromDiscussion;
         private System.Windows.Forms.Label PostErrorLbl;
+        private System.Windows.Forms.Panel CommentPanel;
     }
 }
 

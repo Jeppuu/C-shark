@@ -28,14 +28,27 @@ namespace StudyPoint
 
             // load data to discussion board
             DiscussionPostsDgv.DataSource = user.FetchQuestions();
-            DiscussionPostsDgv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            DiscussionPostsDgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             var datagridview = new DataGridView();
             datagridview.RowTemplate.MinimumHeight = 150;
-            //adjust the column width
+            
+
+            //add a button column for commenting
+            DataGridViewButtonColumn commentButtonColumn = new DataGridViewButtonColumn();
+            commentButtonColumn.Name = "Comment";
+            commentButtonColumn.Text = "Comment";
+            commentButtonColumn.UseColumnTextForButtonValue = true;
+            
+            int columnIndex = 0;
+            if (DiscussionPostsDgv.Columns["Comment"] == null)
+            {
+                DiscussionPostsDgv.Columns.Insert(columnIndex, commentButtonColumn);
+            }
+
+            //adjust the comment column width
             DataGridViewColumn column = DiscussionPostsDgv.Columns[0];
-            column.Width = 420;
-            DataGridViewColumn column2 = DiscussionPostsDgv.Columns[1];
-            column2.Width = 150;
+            column.Width = 100;
+            
         }
 
         //
@@ -362,7 +375,7 @@ namespace StudyPoint
             DateTime date = System.DateTime.Now;
 
 
-            if (question.Trim().Equals(""))
+            if (question.Trim().Equals("") || question.Trim().Equals("Write a post..."))
             {
                 PostErrorLbl.Visible = true;
 
@@ -370,6 +383,7 @@ namespace StudyPoint
 
             else
             {
+                PostErrorLbl.Visible = false;
                 Boolean PostQuestion = user.PostQuestion(question,date);
                 if (PostQuestion)
                 {
@@ -384,14 +398,13 @@ namespace StudyPoint
 
             // load new posted data to discussion board
             DiscussionPostsDgv.DataSource = user.FetchQuestions();
-            DiscussionPostsDgv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells);
+            DiscussionPostsDgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             var datagridview = new DataGridView();
             datagridview.RowTemplate.MinimumHeight = 150;
-            //adjust the column width
+            //adjust the comment column width
             DataGridViewColumn column = DiscussionPostsDgv.Columns[0];
-            column.Width = 420;
-            DataGridViewColumn column2 = DiscussionPostsDgv.Columns[1];
-            column2.Width = 150;
+            column.Width = 100;
+            
         }
         // return to home page from discussion board
         private void ReturnFromDiscussion_Click(object sender, EventArgs e)
@@ -400,6 +413,15 @@ namespace StudyPoint
             DiscussionBoardPanel.Visible = false;
         }
 
-       
+        //open comment panel from cell/button click
+        private void DiscussionPostsDgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //if the comment cell was clicked
+            if (e.ColumnIndex == DiscussionPostsDgv.Columns["Comment"].Index)
+            {
+                CommentPanel.Visible = true;
+                DiscussionBoardPanel.Visible = false;
+            }
+        }
     }
 }
